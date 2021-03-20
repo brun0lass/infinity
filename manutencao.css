@@ -13,6 +13,7 @@ body{
 }
 
 
+
 .logo{
     display: flex;
     margin: 0 auto;
@@ -56,15 +57,15 @@ p.coiso{
 
 @media(max-width: 600px){
     p.coiso{
-        font-size: 1.35em;
+        font-size: 1.5em;
         flex-wrap: wrap;
-        margin-top: 10px;
+        margin-top: 15px;
     }
     p.aparece{
-        font-size: 1.35em;
+        font-size: 1.5em;
         width: 6.5em;
         margin:0 auto;
-        margin-top: 10px;
+        margin-top: 15px;
     }
     .logo{
         width: 150px;
