@@ -1,1 +1,4 @@
-Redirect 301 / http://justbeinfinity.com/manutencao.html
+Options +FollowSymlinks
+RewriteEngine on
+rewritecond %{http_host} ^justbeinfinity.com [NC]
+rewriterule ^(.*)$ http://www.justbeinfinity.com/manutencao.html/$1 [r=301,NC]
