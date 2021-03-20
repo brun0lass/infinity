@@ -71,7 +71,7 @@ p.coiso{
         height: 100px;
     }
 }
-@media(max-width: 500px){
+@media(max-width: 600px){
     p.coiso{
         font-size: 1.35em;
         flex-wrap: wrap;
