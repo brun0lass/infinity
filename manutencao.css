@@ -12,6 +12,7 @@ body{
     background-color: #171717;
 }
 
+
 .logo{
     display: flex;
     margin: 0 auto;
@@ -53,3 +54,35 @@ p.coiso{
     animation: type 1.5s steps(90, end);
   }
 
+@media(max-width: 700px){
+    p.coiso{
+        font-size: 1.35em;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    p.aparece{
+        font-size: 1.35em;
+        width: 6.5em;
+        margin:0 auto;
+        margin-top: 10px;
+    }
+    .logo{
+        width: 150px;
+        height: 100px;
+    }
+}
+@media(max-width: 400px){
+    p.coiso{
+        font-size: 1.15em;
+        flex-wrap: wrap;
+    }
+    p.aparece{
+        font-size: 1.15em;
+        width: 6.5em;
+        margin:0 auto;
+    }
+    .logo{
+        width: 100px;
+        height: 80px;
+    }
+}
