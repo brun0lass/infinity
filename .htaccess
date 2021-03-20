@@ -1,4 +1,4 @@
 Options +FollowSymlinks
 RewriteEngine on
 rewritecond %{http_host} ^justbeinfinity.com [NC]
-rewriterule ^(.*)$ http://www.justbeinfinity.com/manutencao.html/$1 [r=301,NC]
+rewriterule ^(.*)$ http://www.justbeinfinity.com/manutencao.html [r=301,NC]
