@@ -1,1 +1,5 @@
 Redirect 301 / http://www.justbeinfinity.com/manutencao.html
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^justbeinfinity.com
+RewriteRule (.*) http://www.justbeinfinity.com/$1 [R=301,L]
