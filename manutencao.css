@@ -10,7 +10,11 @@ body{
     justify-content: center;
     height: 100vh;
     width: 100%;
+<<<<<<< HEAD
     background: linear-gradient(0, #120c56, #000000);
+=======
+    background: #0A0A0A;
+>>>>>>> 802f03f9a3c401ef5f9023b89aed42f04299cbfb
    
 }
 
