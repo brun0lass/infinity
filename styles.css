@@ -20,6 +20,7 @@ li, a, h1, h2, h3, h4, h5, h6, p{
 }
 
 .navbar ul{
+    align-self: center;
     display: flex;
     list-style: none;
     padding: 20px;
