@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: #0A0A0A;
+}
+
+li, a, h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Fira Code', monospace;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
+
+.navbar ul li{
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.navbar ul li:hover{
+    background-color: #904CFD;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+.maincontainer{
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    height: 85vh;
+}
+
+.barra{
+    height: 60vh;
+    width: 5px;
+    background-color: #341C5C;
+    margin: 0 40px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.title p{
+    font-size: 30px;
+    width: 70vh;
+    font-weight: bold;
+}
+
+.title p strong{
+    color: #412d61;
+    font-size: 34px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.quemsomos{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.sidebar{
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+}
+
+.sidebar ul{
+    list-style: none;
+}
+
+.sidebar ul li{
+    display: block;
+    justify-content: center;
+}
+
+
+.containerquemsomos{
+    justify-content: center;
+    width: 70vw;
+}
+
+.circulo {
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #535353;
+    border-style: solid; 
+    border-width: 1px;
+    border-color: #E21046;
+}
+
+li {
+lect{
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E21046;
+    border-style: solid; 
+    border-width: 1px;
+    border-color: #E21046;
+}
+
+.barraa{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1.5px;
+    height: 40px;
+    background-color: #710823;
+}

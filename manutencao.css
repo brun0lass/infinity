@@ -9,8 +9,20 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #171717;
+    width: 100%;
+    background: linear-gradient(0, #120c56, #000000);
+   
 }
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
 
 .logo{
     display: flex;
@@ -53,3 +65,35 @@ p.coiso{
     animation: type 1.5s steps(90, end);
   }
 
+@media(max-width: 600px){
+    p.coiso{
+        font-size: 1.5em;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+    p.aparece{
+        font-size: 1.5em;
+        width: 6.5em;
+        margin:0 auto;
+        margin-top: 15px;
+    }
+    .logo{
+        width: 150px;
+        height: 100px;
+    }
+}
+@media(max-width: 400px){
+    p.coiso{
+        font-size: 1.15em;
+        flex-wrap: wrap;
+    }
+    p.aparece{
+        font-size: 1.15em;
+        width: 6.5em;
+        margin:0 auto;
+    }
+    .logo{
+        width: 100px;
+        height: 80px;
+    }
+}
