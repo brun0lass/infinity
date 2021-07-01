@@ -37,6 +37,7 @@ li, a, h1, h2, h3, h4, h5, h6, p{
     border-radius: 5px;
     padding: 10px;
     color: white;
+    cursor: pointer;
 }
 
 .maincontainer{
@@ -50,18 +51,20 @@ li, a, h1, h2, h3, h4, h5, h6, p{
     height: 60vh;
     width: 5px;
     background-color: #341C5C;
-    margin: 0 40px;
+    margin: 0 130px;
 }
 
 .title{
     display: flex;
     align-items: center;
+    margin-top: -160px;
 }
 
 .title p{
     font-size: 30px;
     width: 70vh;
     font-weight: bold;
+    text-align: center;
 }
 
 .title p strong{
@@ -72,6 +75,7 @@ li, a, h1, h2, h3, h4, h5, h6, p{
 .logo{
     display: flex;
     align-items: center;
+    margin-top: -160px;
 }
 
 
