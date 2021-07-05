@@ -85,6 +85,7 @@ li, a, h1, h2, h3, h4, h5, h6, p{
     display: flex;
     justify-content: center;
     width: 20vw;
+    margin: 0 auto;
 }
 
 .sidebar ul{
@@ -94,6 +95,7 @@ li, a, h1, h2, h3, h4, h5, h6, p{
 .sidebar ul li{
     display: block;
     justify-content: center;
+    margin-top: 20px;
 }
 
 
@@ -113,18 +115,6 @@ li, a, h1, h2, h3, h4, h5, h6, p{
     border-color: #E21046;
 }
 
-li {
-lect{
-    margin: 0 auto;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #E21046;
-    border-style: solid; 
-    border-width: 1px;
-    border-color: #E21046;
-}
-
 .barraa{
     margin: 0 auto;
     margin-top: 10px;
@@ -133,3 +123,9 @@ lect{
     height: 40px;
     background-color: #710823;
 }
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
