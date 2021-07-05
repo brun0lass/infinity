@@ -50,7 +50,7 @@ li, a, h1, h2, h3, h4, h5, h6, p{
 .barra{
     height: 60vh;
     width: 5px;
-    background-color: #341C5C;
+    background-color: #5a565f;
     margin: 0 130px;
 }
 
@@ -68,7 +68,7 @@ li, a, h1, h2, h3, h4, h5, h6, p{
 }
 
 .title p strong{
-    color: #412d61;
+    color: #904CFD;
     font-size: 34px;
 }
 
@@ -90,7 +90,7 @@ li, a, h1, h2, h3, h4, h5, h6, p{
     display: flex;
     justify-content: center;
     width: 20vw;
-    margin: 0 auto;
+    
 }
 
 .sidebar ul{
@@ -101,12 +101,35 @@ li, a, h1, h2, h3, h4, h5, h6, p{
     display: block;
     justify-content: center;
     margin-top: 20px;
+    text-align: center;
 }
 
 
 .containerquemsomos{
     justify-content: center;
     width: 70vw;
+}
+
+.containerquemsomos p{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.containerquemsomos h1{
+    text-align: center;
+    font-size: 36px;
+}
+
+.containerquemsomos h2{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    letter-spacing: 6px;
+}
+
+.containerquemsomos h2 strong{
+    color: #904CFD;
 }
 
 .circulo {
@@ -127,4 +150,11 @@ li, a, h1, h2, h3, h4, h5, h6, p{
     width: 1.5px;
     height: 40px;
     background-color: #710823;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 5px;
+    padding-bottom: 30px;
 }
