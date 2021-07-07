@@ -82,7 +82,7 @@ a{
 }
 
 
-.quemsomos{
+.container{
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -108,30 +108,30 @@ a{
 }
 
 
-.containerquemsomos{
+.conteudo{
     justify-content: center;
     width: 70vw;
 }
 
-.containerquemsomos p{
+.conteudo p{
     text-align: center;
     margin-top: 25px;
     font-size: 24px;
 }
 
-.containerquemsomos h1{
+.conteudo h1{
     text-align: center;
     font-size: 36px;
 }
 
-.containerquemsomos h2{
+.conteudo h2{
     text-align: center;
     font-size: 28px;
     margin-top: 20px;
     letter-spacing: 6px;
 }
 
-.containerquemsomos h2 strong{
+.conteudo h2 strong{
     color: #904CFD;
 }
 
