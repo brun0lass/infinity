@@ -89,11 +89,11 @@ a{
     margin-top: 50px;
 }
 
+
 .sidebar{
     display: flex;
     justify-content: center;
     width: 20vw;
-    
 }
 
 .sidebar ul{
@@ -141,6 +141,17 @@ a{
     height: 40px;
     border-radius: 50%;
     background-color: #535353;
+    border-style: solid; 
+    border-width: 1px;
+    border-color: #E21046;
+}
+
+.circuloselect{
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E21046;
     border-style: solid; 
     border-width: 1px;
     border-color: #E21046;
