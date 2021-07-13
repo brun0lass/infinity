@@ -172,3 +172,14 @@ a{
     letter-spacing: 5px;
     padding-bottom: 30px;
 }
+
+.tecrow{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.tecrow img{
+    margin: 0 10px;
+}
